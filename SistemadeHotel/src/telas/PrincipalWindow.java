@@ -206,6 +206,7 @@ public class PrincipalWindow extends javax.swing.JFrame {
 
         jMenuBar1.add(jMenu1);
 
+        jMenu2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imgs/imgReservas.png"))); // NOI18N
         jMenu2.setText("Reservas   |");
         jMenu2.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
 
@@ -241,6 +242,7 @@ public class PrincipalWindow extends javax.swing.JFrame {
 
         jMenuBar1.add(jMenu2);
 
+        jMenu3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imgs/imgVendas.png"))); // NOI18N
         jMenu3.setText("Vendas   |");
         jMenu3.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
 
@@ -266,6 +268,7 @@ public class PrincipalWindow extends javax.swing.JFrame {
 
         jMenuBar1.add(jMenu3);
 
+        jMenu4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imgs/imgFinanceiro.png"))); // NOI18N
         jMenu4.setText("Financeiro   |");
         jMenu4.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
 
@@ -317,6 +320,7 @@ public class PrincipalWindow extends javax.swing.JFrame {
 
         jMenuBar1.add(jMenu4);
 
+        jMenu5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imgs/imgRelatório.png"))); // NOI18N
         jMenu5.setText("Relatórios   |");
         jMenu5.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
 
@@ -423,6 +427,7 @@ public class PrincipalWindow extends javax.swing.JFrame {
 
         jMenuBar1.add(jMenu5);
 
+        jMenu6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imgs/imgSegurança.png"))); // NOI18N
         jMenu6.setText("Segurança   |");
         jMenu6.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
 
@@ -448,6 +453,7 @@ public class PrincipalWindow extends javax.swing.JFrame {
 
         jMenuBar1.add(jMenu6);
 
+        jMenu7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imgs/imgFerramentas.png"))); // NOI18N
         jMenu7.setText("Ferramentas   |");
         jMenu7.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
 
@@ -495,7 +501,7 @@ public class PrincipalWindow extends javax.swing.JFrame {
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 830, Short.MAX_VALUE)
+            .addGap(0, 1050, Short.MAX_VALUE)
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
