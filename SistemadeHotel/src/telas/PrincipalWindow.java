@@ -17,6 +17,8 @@ public class PrincipalWindow extends javax.swing.JFrame {
      */
     public PrincipalWindow() {
         initComponents();
+        
+        setExtendedState(MAXIMIZED_BOTH);
     }
 
     /**
@@ -28,6 +30,9 @@ public class PrincipalWindow extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
+        jPanel1 = new javax.swing.JPanel();
+        jSeparator1 = new javax.swing.JSeparator();
+        jLabel1 = new javax.swing.JLabel();
         jMenuBar1 = new javax.swing.JMenuBar();
         jMenu1 = new javax.swing.JMenu();
         jMenu9 = new javax.swing.JMenu();
@@ -92,8 +97,32 @@ public class PrincipalWindow extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
+        jLabel1.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jLabel1.setText("Sistema Desenvolvido por Augusto da Costa Pires");
+
+        javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
+        jPanel1.setLayout(jPanel1Layout);
+        jPanel1Layout.setHorizontalGroup(
+            jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addComponent(jSeparator1)
+            .addGroup(jPanel1Layout.createSequentialGroup()
+                .addGap(353, 353, 353)
+                .addComponent(jLabel1)
+                .addContainerGap(360, Short.MAX_VALUE))
+        );
+        jPanel1Layout.setVerticalGroup(
+            jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel1Layout.createSequentialGroup()
+                .addGap(33, 33, 33)
+                .addComponent(jSeparator1, javax.swing.GroupLayout.PREFERRED_SIZE, 10, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addComponent(jLabel1)
+                .addContainerGap(20, Short.MAX_VALUE))
+        );
+
         jMenu1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imgs/imgCadastros.png"))); // NOI18N
         jMenu1.setText("Cadastros   |");
+        jMenu1.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         jMenu1.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
 
         jMenu9.setText("Hospedes");
@@ -208,6 +237,7 @@ public class PrincipalWindow extends javax.swing.JFrame {
 
         jMenu2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imgs/imgReservas.png"))); // NOI18N
         jMenu2.setText("Reservas   |");
+        jMenu2.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         jMenu2.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
 
         menuCadHospede1.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
@@ -244,6 +274,7 @@ public class PrincipalWindow extends javax.swing.JFrame {
 
         jMenu3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imgs/imgVendas.png"))); // NOI18N
         jMenu3.setText("Vendas   |");
+        jMenu3.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         jMenu3.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
 
         menuCadHospede4.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
@@ -270,6 +301,7 @@ public class PrincipalWindow extends javax.swing.JFrame {
 
         jMenu4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imgs/imgFinanceiro.png"))); // NOI18N
         jMenu4.setText("Financeiro   |");
+        jMenu4.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         jMenu4.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
 
         jMenu14.setText("Contas a Pagar");
@@ -322,6 +354,7 @@ public class PrincipalWindow extends javax.swing.JFrame {
 
         jMenu5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imgs/imgRelatório.png"))); // NOI18N
         jMenu5.setText("Relatórios   |");
+        jMenu5.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         jMenu5.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
 
         jMenu16.setText("Financeiro");
@@ -429,6 +462,7 @@ public class PrincipalWindow extends javax.swing.JFrame {
 
         jMenu6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imgs/imgSegurança.png"))); // NOI18N
         jMenu6.setText("Segurança   |");
+        jMenu6.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         jMenu6.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
 
         menuCadHospede16.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
@@ -455,6 +489,7 @@ public class PrincipalWindow extends javax.swing.JFrame {
 
         jMenu7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imgs/imgFerramentas.png"))); // NOI18N
         jMenu7.setText("Ferramentas   |");
+        jMenu7.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         jMenu7.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
 
         jMenu19.setText("Tela de Fundo");
@@ -491,7 +526,9 @@ public class PrincipalWindow extends javax.swing.JFrame {
 
         jMenuBar1.add(jMenu7);
 
+        windowPrinSair.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imgs/imgSair.png"))); // NOI18N
         windowPrinSair.setText("Sair");
+        windowPrinSair.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         windowPrinSair.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
         jMenuBar1.add(windowPrinSair);
 
@@ -501,11 +538,13 @@ public class PrincipalWindow extends javax.swing.JFrame {
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 1050, Short.MAX_VALUE)
+            .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 378, Short.MAX_VALUE)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
+                .addGap(0, 283, Short.MAX_VALUE)
+                .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
         );
 
         pack();
@@ -637,6 +676,7 @@ public class PrincipalWindow extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JLabel jLabel1;
     private javax.swing.JMenu jMenu1;
     private javax.swing.JMenu jMenu10;
     private javax.swing.JMenu jMenu11;
@@ -657,6 +697,8 @@ public class PrincipalWindow extends javax.swing.JFrame {
     private javax.swing.JMenu jMenu8;
     private javax.swing.JMenu jMenu9;
     private javax.swing.JMenuBar jMenuBar1;
+    private javax.swing.JPanel jPanel1;
+    private javax.swing.JSeparator jSeparator1;
     private javax.swing.JMenuItem menuCadFornecedores;
     private javax.swing.JMenuItem menuCadFuncionario;
     private javax.swing.JMenuItem menuCadHospede;
