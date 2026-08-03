@@ -471,7 +471,7 @@ public class PrincipalWindow extends javax.swing.JFrame {
 
         jMenuBar1.add(jMenu5);
 
-        jMenu6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imgs/imgSegurança.png"))); // NOI18N
+        jMenu6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imgs/imgFerramentas.png"))); // NOI18N
         jMenu6.setText("Segurança   |");
         jMenu6.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         jMenu6.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N

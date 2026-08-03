@@ -559,7 +559,7 @@
         <Menu class="javax.swing.JMenu" name="jMenu6">
           <Properties>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="3" name="/imgs/imgSeguran&#xe7;a.png"/>
+              <Image iconType="3" name="/imgs/imgFerramentas.png"/>
             </Property>
             <Property name="text" type="java.lang.String" value="Seguran&#xe7;a   |"/>
             <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
