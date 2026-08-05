@@ -131,10 +131,12 @@ public class PrincipalWindow extends javax.swing.JFrame {
                 .addContainerGap(20, Short.MAX_VALUE))
         );
 
-        Cad.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imgs/imgCadastros.png"))); // NOI18N
+        Cad.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imgs/ImgMenuBar/imgCadastros.png"))); // NOI18N
         Cad.setText("Cadastros   |");
         Cad.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         Cad.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        Cad.setMaximumSize(new java.awt.Dimension(130, 32767));
+        Cad.setMinimumSize(new java.awt.Dimension(130, 38));
 
         CadHosp.setText("Hospedes");
         CadHosp.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
@@ -246,7 +248,7 @@ public class PrincipalWindow extends javax.swing.JFrame {
 
         Menu.add(Cad);
 
-        Reserva.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imgs/imgReservas.png"))); // NOI18N
+        Reserva.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imgs/ImgMenuBar/imgReservas.png"))); // NOI18N
         Reserva.setText("Reservas   |");
         Reserva.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         Reserva.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
@@ -283,7 +285,7 @@ public class PrincipalWindow extends javax.swing.JFrame {
 
         Menu.add(Reserva);
 
-        Vendas.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imgs/imgVendas.png"))); // NOI18N
+        Vendas.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imgs/ImgMenuBar/imgVendas.png"))); // NOI18N
         Vendas.setText("Vendas   |");
         Vendas.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         Vendas.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
@@ -310,7 +312,7 @@ public class PrincipalWindow extends javax.swing.JFrame {
 
         Menu.add(Vendas);
 
-        Financeiro.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imgs/imgFinanceiro.png"))); // NOI18N
+        Financeiro.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imgs/ImgMenuBar/imgFinanceiro.png"))); // NOI18N
         Financeiro.setText("Financeiro   |");
         Financeiro.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         Financeiro.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
@@ -363,7 +365,7 @@ public class PrincipalWindow extends javax.swing.JFrame {
 
         Menu.add(Financeiro);
 
-        Relat.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imgs/imgRelatório.png"))); // NOI18N
+        Relat.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imgs/ImgMenuBar/imgRelatório.png"))); // NOI18N
         Relat.setText("Relatórios   |");
         Relat.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         Relat.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
@@ -471,7 +473,7 @@ public class PrincipalWindow extends javax.swing.JFrame {
 
         Menu.add(Relat);
 
-        Seg.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imgs/imgSegurança.png"))); // NOI18N
+        Seg.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imgs/ImgMenuBar/imgSegurança.png"))); // NOI18N
         Seg.setText("Segurança   |");
         Seg.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         Seg.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
@@ -498,7 +500,7 @@ public class PrincipalWindow extends javax.swing.JFrame {
 
         Menu.add(Seg);
 
-        Ferramentas.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imgs/imgFerramentas.png"))); // NOI18N
+        Ferramentas.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imgs/ImgMenuBar/imgFerramentas.png"))); // NOI18N
         Ferramentas.setText("Ferramentas   |");
         Ferramentas.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         Ferramentas.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
@@ -537,7 +539,7 @@ public class PrincipalWindow extends javax.swing.JFrame {
 
         Menu.add(Ferramentas);
 
-        Sair.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imgs/imgSair.png"))); // NOI18N
+        Sair.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imgs/ImgMenuBar/imgSair.png"))); // NOI18N
         Sair.setText("Sair");
         Sair.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         Sair.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
@@ -549,14 +551,12 @@ public class PrincipalWindow extends javax.swing.JFrame {
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(layout.createSequentialGroup()
-                .addComponent(rodape, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addGap(371, 371, 371))
+            .addComponent(rodape, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                .addGap(0, 326, Short.MAX_VALUE)
+                .addGap(0, 0, Short.MAX_VALUE)
                 .addComponent(rodape, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
         );
 
