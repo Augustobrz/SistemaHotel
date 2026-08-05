@@ -36,67 +36,67 @@ public class PrincipalWindow extends javax.swing.JFrame {
         jPanel1 = new javax.swing.JPanel();
         jSeparator1 = new javax.swing.JSeparator();
         jLabel1 = new javax.swing.JLabel();
-        jMenuBar1 = new javax.swing.JMenuBar();
-        jMenu1 = new javax.swing.JMenu();
-        jMenu9 = new javax.swing.JMenu();
-        menuCadHospede = new javax.swing.JMenuItem();
-        menuConHospede = new javax.swing.JMenuItem();
-        jMenu10 = new javax.swing.JMenu();
-        menuCadQuartos = new javax.swing.JMenuItem();
-        menuConQuartos = new javax.swing.JMenuItem();
-        jMenu8 = new javax.swing.JMenu();
-        menuCadFuncionario = new javax.swing.JMenuItem();
-        menuConFuncionario = new javax.swing.JMenuItem();
-        jMenu12 = new javax.swing.JMenu();
-        menuCadFornecedores = new javax.swing.JMenuItem();
-        menuConFornecedores = new javax.swing.JMenuItem();
-        jMenu11 = new javax.swing.JMenu();
-        menuCadProduto = new javax.swing.JMenuItem();
-        menuConProduto = new javax.swing.JMenuItem();
-        jMenu13 = new javax.swing.JMenu();
-        menuCadServico = new javax.swing.JMenuItem();
-        menuConServico = new javax.swing.JMenuItem();
-        jMenu2 = new javax.swing.JMenu();
-        menuCadHospede1 = new javax.swing.JMenuItem();
-        menuCadHospede2 = new javax.swing.JMenuItem();
-        menuCadHospede3 = new javax.swing.JMenuItem();
-        jMenu3 = new javax.swing.JMenu();
-        menuCadHospede4 = new javax.swing.JMenuItem();
-        menuCadHospede5 = new javax.swing.JMenuItem();
-        jMenu4 = new javax.swing.JMenu();
-        jMenu14 = new javax.swing.JMenu();
-        menuCadHospede6 = new javax.swing.JMenuItem();
-        menuConHospede1 = new javax.swing.JMenuItem();
-        jMenu15 = new javax.swing.JMenu();
-        menuCadHospede7 = new javax.swing.JMenuItem();
-        menuConHospede2 = new javax.swing.JMenuItem();
-        menuCadHospede8 = new javax.swing.JMenuItem();
-        jMenu5 = new javax.swing.JMenu();
-        jMenu16 = new javax.swing.JMenu();
-        menuCadHospede9 = new javax.swing.JMenuItem();
-        menuConHospede3 = new javax.swing.JMenuItem();
-        menuConHospede6 = new javax.swing.JMenuItem();
-        jMenu17 = new javax.swing.JMenu();
-        menuCadHospede10 = new javax.swing.JMenuItem();
-        menuConHospede4 = new javax.swing.JMenuItem();
-        menuCadHospede15 = new javax.swing.JMenuItem();
-        jMenu18 = new javax.swing.JMenu();
-        menuCadHospede11 = new javax.swing.JMenuItem();
-        menuConHospede5 = new javax.swing.JMenuItem();
-        menuConHospede7 = new javax.swing.JMenuItem();
-        menuCadHospede12 = new javax.swing.JMenuItem();
-        menuCadHospede13 = new javax.swing.JMenuItem();
-        menuCadHospede14 = new javax.swing.JMenuItem();
-        jMenu6 = new javax.swing.JMenu();
-        menuCadHospede16 = new javax.swing.JMenuItem();
-        menuCadHospede17 = new javax.swing.JMenuItem();
-        jMenu7 = new javax.swing.JMenu();
-        jMenu19 = new javax.swing.JMenu();
-        menuCadHospede18 = new javax.swing.JMenuItem();
-        menuConHospede8 = new javax.swing.JMenuItem();
-        menuConHospede9 = new javax.swing.JMenuItem();
-        menuCadHospede19 = new javax.swing.JMenuItem();
-        windowPrinSair = new javax.swing.JMenu();
+        Menu = new javax.swing.JMenuBar();
+        Cad = new javax.swing.JMenu();
+        CadHosp = new javax.swing.JMenu();
+        CadHospCad = new javax.swing.JMenuItem();
+        CadHospCon = new javax.swing.JMenuItem();
+        CadQuar = new javax.swing.JMenu();
+        CadQuarCad = new javax.swing.JMenuItem();
+        CadQuarCon = new javax.swing.JMenuItem();
+        CadFunc = new javax.swing.JMenu();
+        CadFuncCad = new javax.swing.JMenuItem();
+        CadFuncCon = new javax.swing.JMenuItem();
+        CadForn = new javax.swing.JMenu();
+        CadFornCad = new javax.swing.JMenuItem();
+        CadFornCon = new javax.swing.JMenuItem();
+        CadProd = new javax.swing.JMenu();
+        CadProdCad = new javax.swing.JMenuItem();
+        CadProdCon = new javax.swing.JMenuItem();
+        CadServ = new javax.swing.JMenu();
+        CadServCad = new javax.swing.JMenuItem();
+        CadServCon = new javax.swing.JMenuItem();
+        Reserva = new javax.swing.JMenu();
+        ReservaCad = new javax.swing.JMenuItem();
+        ReservaCon = new javax.swing.JMenuItem();
+        ReservaFin = new javax.swing.JMenuItem();
+        Vendas = new javax.swing.JMenu();
+        VenProd = new javax.swing.JMenuItem();
+        VenServ = new javax.swing.JMenuItem();
+        Financeiro = new javax.swing.JMenu();
+        FinCont = new javax.swing.JMenu();
+        FinContCad = new javax.swing.JMenuItem();
+        FinContCon = new javax.swing.JMenuItem();
+        FinContRec = new javax.swing.JMenu();
+        FinContRecCad = new javax.swing.JMenuItem();
+        FinContRecCon = new javax.swing.JMenuItem();
+        FinContBal = new javax.swing.JMenuItem();
+        Relat = new javax.swing.JMenu();
+        RelatFinan = new javax.swing.JMenu();
+        RelatFinanCont = new javax.swing.JMenuItem();
+        RelatFinanRece = new javax.swing.JMenuItem();
+        RelatFinanBal = new javax.swing.JMenuItem();
+        RelatReser = new javax.swing.JMenu();
+        RelatReserQuarDisp = new javax.swing.JMenuItem();
+        RelatReserQuarOcup = new javax.swing.JMenuItem();
+        RelatReserFut = new javax.swing.JMenuItem();
+        RelatVend = new javax.swing.JMenu();
+        RelatVendProd = new javax.swing.JMenuItem();
+        RelatVendServ = new javax.swing.JMenuItem();
+        RelatVendTot = new javax.swing.JMenuItem();
+        RelatHosp = new javax.swing.JMenuItem();
+        RelatFunc = new javax.swing.JMenuItem();
+        RelatForn = new javax.swing.JMenuItem();
+        Seg = new javax.swing.JMenu();
+        SegBackup = new javax.swing.JMenuItem();
+        SegRest = new javax.swing.JMenuItem();
+        Ferramentas = new javax.swing.JMenu();
+        FerramentasTelaFundo = new javax.swing.JMenu();
+        FerramentasTelaFundoAddImg = new javax.swing.JMenuItem();
+        FerramentasTelaFundoRemImg = new javax.swing.JMenuItem();
+        FerramentasTelaFundoRestPad = new javax.swing.JMenuItem();
+        FerramentasSobreSistema = new javax.swing.JMenuItem();
+        Sair = new javax.swing.JMenu();
 
         jMenu20.setText("File");
         jMenuBar2.add(jMenu20);
@@ -131,419 +131,419 @@ public class PrincipalWindow extends javax.swing.JFrame {
                 .addContainerGap(20, Short.MAX_VALUE))
         );
 
-        jMenu1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imgs/imgCadastros.png"))); // NOI18N
-        jMenu1.setText("Cadastros   |");
-        jMenu1.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
-        jMenu1.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        Cad.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imgs/imgCadastros.png"))); // NOI18N
+        Cad.setText("Cadastros   |");
+        Cad.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        Cad.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
 
-        jMenu9.setText("Hospedes");
-        jMenu9.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        CadHosp.setText("Hospedes");
+        CadHosp.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
 
-        menuCadHospede.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
-        menuCadHospede.setText("Cadastrar");
-        menuCadHospede.addActionListener(new java.awt.event.ActionListener() {
+        CadHospCad.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        CadHospCad.setText("Cadastrar");
+        CadHospCad.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                menuCadHospedeActionPerformed(evt);
+                CadHospCadActionPerformed(evt);
             }
         });
-        jMenu9.add(menuCadHospede);
+        CadHosp.add(CadHospCad);
 
-        menuConHospede.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
-        menuConHospede.setText("Consultar");
-        jMenu9.add(menuConHospede);
+        CadHospCon.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        CadHospCon.setText("Consultar");
+        CadHosp.add(CadHospCon);
 
-        jMenu1.add(jMenu9);
+        Cad.add(CadHosp);
 
-        jMenu10.setText("Quartos");
-        jMenu10.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        CadQuar.setText("Quartos");
+        CadQuar.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
 
-        menuCadQuartos.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
-        menuCadQuartos.setText("Cadastrar");
-        menuCadQuartos.addActionListener(new java.awt.event.ActionListener() {
+        CadQuarCad.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        CadQuarCad.setText("Cadastrar");
+        CadQuarCad.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                menuCadQuartosActionPerformed(evt);
+                CadQuarCadActionPerformed(evt);
             }
         });
-        jMenu10.add(menuCadQuartos);
+        CadQuar.add(CadQuarCad);
 
-        menuConQuartos.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
-        menuConQuartos.setText("Consultar");
-        jMenu10.add(menuConQuartos);
+        CadQuarCon.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        CadQuarCon.setText("Consultar");
+        CadQuar.add(CadQuarCon);
 
-        jMenu1.add(jMenu10);
+        Cad.add(CadQuar);
 
-        jMenu8.setText("Funcionários");
-        jMenu8.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        CadFunc.setText("Funcionários");
+        CadFunc.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
 
-        menuCadFuncionario.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
-        menuCadFuncionario.setText("Cadastrar");
-        menuCadFuncionario.addActionListener(new java.awt.event.ActionListener() {
+        CadFuncCad.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        CadFuncCad.setText("Cadastrar");
+        CadFuncCad.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                menuCadFuncionarioActionPerformed(evt);
+                CadFuncCadActionPerformed(evt);
             }
         });
-        jMenu8.add(menuCadFuncionario);
+        CadFunc.add(CadFuncCad);
 
-        menuConFuncionario.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
-        menuConFuncionario.setText("Consultar");
-        jMenu8.add(menuConFuncionario);
+        CadFuncCon.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        CadFuncCon.setText("Consultar");
+        CadFunc.add(CadFuncCon);
 
-        jMenu1.add(jMenu8);
+        Cad.add(CadFunc);
 
-        jMenu12.setText("Fornecedores");
-        jMenu12.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        CadForn.setText("Fornecedores");
+        CadForn.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
 
-        menuCadFornecedores.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
-        menuCadFornecedores.setText("Cadastrar");
-        menuCadFornecedores.addActionListener(new java.awt.event.ActionListener() {
+        CadFornCad.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        CadFornCad.setText("Cadastrar");
+        CadFornCad.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                menuCadFornecedoresActionPerformed(evt);
+                CadFornCadActionPerformed(evt);
             }
         });
-        jMenu12.add(menuCadFornecedores);
+        CadForn.add(CadFornCad);
 
-        menuConFornecedores.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
-        menuConFornecedores.setText("Consultar");
-        jMenu12.add(menuConFornecedores);
+        CadFornCon.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        CadFornCon.setText("Consultar");
+        CadForn.add(CadFornCon);
 
-        jMenu1.add(jMenu12);
+        Cad.add(CadForn);
 
-        jMenu11.setText("Produtos");
-        jMenu11.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        CadProd.setText("Produtos");
+        CadProd.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
 
-        menuCadProduto.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
-        menuCadProduto.setText("Cadastrar");
-        menuCadProduto.addActionListener(new java.awt.event.ActionListener() {
+        CadProdCad.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        CadProdCad.setText("Cadastrar");
+        CadProdCad.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                menuCadProdutoActionPerformed(evt);
+                CadProdCadActionPerformed(evt);
             }
         });
-        jMenu11.add(menuCadProduto);
+        CadProd.add(CadProdCad);
 
-        menuConProduto.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
-        menuConProduto.setText("Consultar");
-        jMenu11.add(menuConProduto);
+        CadProdCon.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        CadProdCon.setText("Consultar");
+        CadProd.add(CadProdCon);
 
-        jMenu1.add(jMenu11);
+        Cad.add(CadProd);
 
-        jMenu13.setText("Serviços");
-        jMenu13.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        CadServ.setText("Serviços");
+        CadServ.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
 
-        menuCadServico.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
-        menuCadServico.setText("Cadastrar");
-        menuCadServico.addActionListener(new java.awt.event.ActionListener() {
+        CadServCad.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        CadServCad.setText("Cadastrar");
+        CadServCad.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                menuCadServicoActionPerformed(evt);
+                CadServCadActionPerformed(evt);
             }
         });
-        jMenu13.add(menuCadServico);
+        CadServ.add(CadServCad);
 
-        menuConServico.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
-        menuConServico.setText("Consultar");
-        jMenu13.add(menuConServico);
+        CadServCon.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        CadServCon.setText("Consultar");
+        CadServ.add(CadServCon);
 
-        jMenu1.add(jMenu13);
+        Cad.add(CadServ);
 
-        jMenuBar1.add(jMenu1);
+        Menu.add(Cad);
 
-        jMenu2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imgs/imgReservas.png"))); // NOI18N
-        jMenu2.setText("Reservas   |");
-        jMenu2.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
-        jMenu2.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        Reserva.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imgs/imgReservas.png"))); // NOI18N
+        Reserva.setText("Reservas   |");
+        Reserva.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        Reserva.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
 
-        menuCadHospede1.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
-        menuCadHospede1.setText("Cadastrar Reserva");
-        menuCadHospede1.setToolTipText("");
-        menuCadHospede1.addActionListener(new java.awt.event.ActionListener() {
+        ReservaCad.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        ReservaCad.setText("Cadastrar Reserva");
+        ReservaCad.setToolTipText("");
+        ReservaCad.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                menuCadHospede1ActionPerformed(evt);
+                ReservaCadActionPerformed(evt);
             }
         });
-        jMenu2.add(menuCadHospede1);
+        Reserva.add(ReservaCad);
 
-        menuCadHospede2.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
-        menuCadHospede2.setText("Consultar Reserva");
-        menuCadHospede2.setToolTipText("");
-        menuCadHospede2.addActionListener(new java.awt.event.ActionListener() {
+        ReservaCon.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        ReservaCon.setText("Consultar Reserva");
+        ReservaCon.setToolTipText("");
+        ReservaCon.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                menuCadHospede2ActionPerformed(evt);
+                ReservaConActionPerformed(evt);
             }
         });
-        jMenu2.add(menuCadHospede2);
+        Reserva.add(ReservaCon);
 
-        menuCadHospede3.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
-        menuCadHospede3.setText("Finalizar Reserva");
-        menuCadHospede3.setToolTipText("");
-        menuCadHospede3.addActionListener(new java.awt.event.ActionListener() {
+        ReservaFin.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        ReservaFin.setText("Finalizar Reserva");
+        ReservaFin.setToolTipText("");
+        ReservaFin.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                menuCadHospede3ActionPerformed(evt);
+                ReservaFinActionPerformed(evt);
             }
         });
-        jMenu2.add(menuCadHospede3);
+        Reserva.add(ReservaFin);
 
-        jMenuBar1.add(jMenu2);
+        Menu.add(Reserva);
 
-        jMenu3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imgs/imgVendas.png"))); // NOI18N
-        jMenu3.setText("Vendas   |");
-        jMenu3.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
-        jMenu3.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        Vendas.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imgs/imgVendas.png"))); // NOI18N
+        Vendas.setText("Vendas   |");
+        Vendas.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        Vendas.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
 
-        menuCadHospede4.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
-        menuCadHospede4.setText("Produtos");
-        menuCadHospede4.setToolTipText("");
-        menuCadHospede4.addActionListener(new java.awt.event.ActionListener() {
+        VenProd.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        VenProd.setText("Produtos");
+        VenProd.setToolTipText("");
+        VenProd.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                menuCadHospede4ActionPerformed(evt);
+                VenProdActionPerformed(evt);
             }
         });
-        jMenu3.add(menuCadHospede4);
+        Vendas.add(VenProd);
 
-        menuCadHospede5.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
-        menuCadHospede5.setText("Serviços");
-        menuCadHospede5.setToolTipText("");
-        menuCadHospede5.addActionListener(new java.awt.event.ActionListener() {
+        VenServ.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        VenServ.setText("Serviços");
+        VenServ.setToolTipText("");
+        VenServ.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                menuCadHospede5ActionPerformed(evt);
+                VenServActionPerformed(evt);
             }
         });
-        jMenu3.add(menuCadHospede5);
+        Vendas.add(VenServ);
 
-        jMenuBar1.add(jMenu3);
+        Menu.add(Vendas);
 
-        jMenu4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imgs/imgFinanceiro.png"))); // NOI18N
-        jMenu4.setText("Financeiro   |");
-        jMenu4.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
-        jMenu4.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        Financeiro.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imgs/imgFinanceiro.png"))); // NOI18N
+        Financeiro.setText("Financeiro   |");
+        Financeiro.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        Financeiro.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
 
-        jMenu14.setText("Contas a Pagar");
-        jMenu14.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        FinCont.setText("Contas a Pagar");
+        FinCont.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
 
-        menuCadHospede6.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
-        menuCadHospede6.setText("Cadastrar");
-        menuCadHospede6.addActionListener(new java.awt.event.ActionListener() {
+        FinContCad.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        FinContCad.setText("Cadastrar");
+        FinContCad.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                menuCadHospede6ActionPerformed(evt);
+                FinContCadActionPerformed(evt);
             }
         });
-        jMenu14.add(menuCadHospede6);
+        FinCont.add(FinContCad);
 
-        menuConHospede1.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
-        menuConHospede1.setText("Consultar");
-        jMenu14.add(menuConHospede1);
+        FinContCon.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        FinContCon.setText("Consultar");
+        FinCont.add(FinContCon);
 
-        jMenu4.add(jMenu14);
+        Financeiro.add(FinCont);
 
-        jMenu15.setText("Contas a Receber");
-        jMenu15.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        FinContRec.setText("Contas a Receber");
+        FinContRec.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
 
-        menuCadHospede7.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
-        menuCadHospede7.setText("Cadastrar");
-        menuCadHospede7.addActionListener(new java.awt.event.ActionListener() {
+        FinContRecCad.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        FinContRecCad.setText("Cadastrar");
+        FinContRecCad.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                menuCadHospede7ActionPerformed(evt);
+                FinContRecCadActionPerformed(evt);
             }
         });
-        jMenu15.add(menuCadHospede7);
+        FinContRec.add(FinContRecCad);
 
-        menuConHospede2.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
-        menuConHospede2.setText("Consultar");
-        jMenu15.add(menuConHospede2);
+        FinContRecCon.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        FinContRecCon.setText("Consultar");
+        FinContRec.add(FinContRecCon);
 
-        jMenu4.add(jMenu15);
+        Financeiro.add(FinContRec);
 
-        menuCadHospede8.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
-        menuCadHospede8.setText("Balanço");
-        menuCadHospede8.setToolTipText("");
-        menuCadHospede8.addActionListener(new java.awt.event.ActionListener() {
+        FinContBal.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        FinContBal.setText("Balanço");
+        FinContBal.setToolTipText("");
+        FinContBal.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                menuCadHospede8ActionPerformed(evt);
+                FinContBalActionPerformed(evt);
             }
         });
-        jMenu4.add(menuCadHospede8);
+        Financeiro.add(FinContBal);
 
-        jMenuBar1.add(jMenu4);
+        Menu.add(Financeiro);
 
-        jMenu5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imgs/imgRelatório.png"))); // NOI18N
-        jMenu5.setText("Relatórios   |");
-        jMenu5.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
-        jMenu5.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        Relat.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imgs/imgRelatório.png"))); // NOI18N
+        Relat.setText("Relatórios   |");
+        Relat.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        Relat.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
 
-        jMenu16.setText("Financeiro");
-        jMenu16.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        RelatFinan.setText("Financeiro");
+        RelatFinan.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
 
-        menuCadHospede9.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
-        menuCadHospede9.setText("Contas a Pagar");
-        menuCadHospede9.addActionListener(new java.awt.event.ActionListener() {
+        RelatFinanCont.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        RelatFinanCont.setText("Contas a Pagar");
+        RelatFinanCont.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                menuCadHospede9ActionPerformed(evt);
+                RelatFinanContActionPerformed(evt);
             }
         });
-        jMenu16.add(menuCadHospede9);
+        RelatFinan.add(RelatFinanCont);
 
-        menuConHospede3.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
-        menuConHospede3.setText("Contas a Receber");
-        jMenu16.add(menuConHospede3);
+        RelatFinanRece.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        RelatFinanRece.setText("Contas a Receber");
+        RelatFinan.add(RelatFinanRece);
 
-        menuConHospede6.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
-        menuConHospede6.setText("Balanço");
-        jMenu16.add(menuConHospede6);
+        RelatFinanBal.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        RelatFinanBal.setText("Balanço");
+        RelatFinan.add(RelatFinanBal);
 
-        jMenu5.add(jMenu16);
+        Relat.add(RelatFinan);
 
-        jMenu17.setText("Reservas");
-        jMenu17.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        RelatReser.setText("Reservas");
+        RelatReser.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
 
-        menuCadHospede10.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
-        menuCadHospede10.setText("Quartos Disponiveis");
-        menuCadHospede10.addActionListener(new java.awt.event.ActionListener() {
+        RelatReserQuarDisp.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        RelatReserQuarDisp.setText("Quartos Disponiveis");
+        RelatReserQuarDisp.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                menuCadHospede10ActionPerformed(evt);
+                RelatReserQuarDispActionPerformed(evt);
             }
         });
-        jMenu17.add(menuCadHospede10);
+        RelatReser.add(RelatReserQuarDisp);
 
-        menuConHospede4.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
-        menuConHospede4.setText("Quartos Ocupados");
-        jMenu17.add(menuConHospede4);
+        RelatReserQuarOcup.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        RelatReserQuarOcup.setText("Quartos Ocupados");
+        RelatReser.add(RelatReserQuarOcup);
 
-        menuCadHospede15.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
-        menuCadHospede15.setText("Reservas Futuras");
-        menuCadHospede15.addActionListener(new java.awt.event.ActionListener() {
+        RelatReserFut.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        RelatReserFut.setText("Reservas Futuras");
+        RelatReserFut.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                menuCadHospede15ActionPerformed(evt);
+                RelatReserFutActionPerformed(evt);
             }
         });
-        jMenu17.add(menuCadHospede15);
+        RelatReser.add(RelatReserFut);
 
-        jMenu5.add(jMenu17);
+        Relat.add(RelatReser);
 
-        jMenu18.setText("Vendas");
-        jMenu18.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        RelatVend.setText("Vendas");
+        RelatVend.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
 
-        menuCadHospede11.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
-        menuCadHospede11.setText("Produtos");
-        menuCadHospede11.addActionListener(new java.awt.event.ActionListener() {
+        RelatVendProd.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        RelatVendProd.setText("Produtos");
+        RelatVendProd.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                menuCadHospede11ActionPerformed(evt);
+                RelatVendProdActionPerformed(evt);
             }
         });
-        jMenu18.add(menuCadHospede11);
+        RelatVend.add(RelatVendProd);
 
-        menuConHospede5.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
-        menuConHospede5.setText("Serviços");
-        jMenu18.add(menuConHospede5);
+        RelatVendServ.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        RelatVendServ.setText("Serviços");
+        RelatVend.add(RelatVendServ);
 
-        menuConHospede7.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
-        menuConHospede7.setText("Total");
-        jMenu18.add(menuConHospede7);
+        RelatVendTot.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        RelatVendTot.setText("Total");
+        RelatVend.add(RelatVendTot);
 
-        jMenu5.add(jMenu18);
+        Relat.add(RelatVend);
 
-        menuCadHospede12.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
-        menuCadHospede12.setText("Hospedes");
-        menuCadHospede12.setToolTipText("");
-        menuCadHospede12.addActionListener(new java.awt.event.ActionListener() {
+        RelatHosp.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        RelatHosp.setText("Hospedes");
+        RelatHosp.setToolTipText("");
+        RelatHosp.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                menuCadHospede12ActionPerformed(evt);
+                RelatHospActionPerformed(evt);
             }
         });
-        jMenu5.add(menuCadHospede12);
+        Relat.add(RelatHosp);
 
-        menuCadHospede13.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
-        menuCadHospede13.setText("Funcionários");
-        menuCadHospede13.setToolTipText("");
-        menuCadHospede13.addActionListener(new java.awt.event.ActionListener() {
+        RelatFunc.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        RelatFunc.setText("Funcionários");
+        RelatFunc.setToolTipText("");
+        RelatFunc.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                menuCadHospede13ActionPerformed(evt);
+                RelatFuncActionPerformed(evt);
             }
         });
-        jMenu5.add(menuCadHospede13);
+        Relat.add(RelatFunc);
 
-        menuCadHospede14.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
-        menuCadHospede14.setText("Fornecedores");
-        menuCadHospede14.setToolTipText("");
-        menuCadHospede14.addActionListener(new java.awt.event.ActionListener() {
+        RelatForn.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        RelatForn.setText("Fornecedores");
+        RelatForn.setToolTipText("");
+        RelatForn.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                menuCadHospede14ActionPerformed(evt);
+                RelatFornActionPerformed(evt);
             }
         });
-        jMenu5.add(menuCadHospede14);
+        Relat.add(RelatForn);
 
-        jMenuBar1.add(jMenu5);
+        Menu.add(Relat);
 
-        jMenu6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imgs/imgFerramentas.png"))); // NOI18N
-        jMenu6.setText("Segurança   |");
-        jMenu6.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
-        jMenu6.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        Seg.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imgs/imgSegurança.png"))); // NOI18N
+        Seg.setText("Segurança   |");
+        Seg.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        Seg.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
 
-        menuCadHospede16.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
-        menuCadHospede16.setText("Fazer Backup");
-        menuCadHospede16.setToolTipText("");
-        menuCadHospede16.addActionListener(new java.awt.event.ActionListener() {
+        SegBackup.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        SegBackup.setText("Fazer Backup");
+        SegBackup.setToolTipText("");
+        SegBackup.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                menuCadHospede16ActionPerformed(evt);
+                SegBackupActionPerformed(evt);
             }
         });
-        jMenu6.add(menuCadHospede16);
+        Seg.add(SegBackup);
 
-        menuCadHospede17.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
-        menuCadHospede17.setText("Restaurar Sistema");
-        menuCadHospede17.setToolTipText("");
-        menuCadHospede17.addActionListener(new java.awt.event.ActionListener() {
+        SegRest.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        SegRest.setText("Restaurar Sistema");
+        SegRest.setToolTipText("");
+        SegRest.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                menuCadHospede17ActionPerformed(evt);
+                SegRestActionPerformed(evt);
             }
         });
-        jMenu6.add(menuCadHospede17);
+        Seg.add(SegRest);
 
-        jMenuBar1.add(jMenu6);
+        Menu.add(Seg);
 
-        jMenu7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imgs/imgFerramentas.png"))); // NOI18N
-        jMenu7.setText("Ferramentas   |");
-        jMenu7.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
-        jMenu7.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        Ferramentas.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imgs/imgFerramentas.png"))); // NOI18N
+        Ferramentas.setText("Ferramentas   |");
+        Ferramentas.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        Ferramentas.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
 
-        jMenu19.setText("Tela de Fundo");
-        jMenu19.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        FerramentasTelaFundo.setText("Tela de Fundo");
+        FerramentasTelaFundo.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
 
-        menuCadHospede18.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
-        menuCadHospede18.setText("Adicionar Imagem");
-        menuCadHospede18.addActionListener(new java.awt.event.ActionListener() {
+        FerramentasTelaFundoAddImg.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        FerramentasTelaFundoAddImg.setText("Adicionar Imagem");
+        FerramentasTelaFundoAddImg.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                menuCadHospede18ActionPerformed(evt);
+                FerramentasTelaFundoAddImgActionPerformed(evt);
             }
         });
-        jMenu19.add(menuCadHospede18);
+        FerramentasTelaFundo.add(FerramentasTelaFundoAddImg);
 
-        menuConHospede8.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
-        menuConHospede8.setText("Remover Imagem");
-        jMenu19.add(menuConHospede8);
+        FerramentasTelaFundoRemImg.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        FerramentasTelaFundoRemImg.setText("Remover Imagem");
+        FerramentasTelaFundo.add(FerramentasTelaFundoRemImg);
 
-        menuConHospede9.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
-        menuConHospede9.setText("Restaurar para o Padrão");
-        jMenu19.add(menuConHospede9);
+        FerramentasTelaFundoRestPad.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        FerramentasTelaFundoRestPad.setText("Restaurar para o Padrão");
+        FerramentasTelaFundo.add(FerramentasTelaFundoRestPad);
 
-        jMenu7.add(jMenu19);
+        Ferramentas.add(FerramentasTelaFundo);
 
-        menuCadHospede19.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
-        menuCadHospede19.setText("Sobre o Sistema");
-        menuCadHospede19.setToolTipText("");
-        menuCadHospede19.addActionListener(new java.awt.event.ActionListener() {
+        FerramentasSobreSistema.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        FerramentasSobreSistema.setText("Sobre o Sistema");
+        FerramentasSobreSistema.setToolTipText("");
+        FerramentasSobreSistema.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                menuCadHospede19ActionPerformed(evt);
+                FerramentasSobreSistemaActionPerformed(evt);
             }
         });
-        jMenu7.add(menuCadHospede19);
+        Ferramentas.add(FerramentasSobreSistema);
 
-        jMenuBar1.add(jMenu7);
+        Menu.add(Ferramentas);
 
-        windowPrinSair.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imgs/imgSair.png"))); // NOI18N
-        windowPrinSair.setText("Sair");
-        windowPrinSair.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
-        windowPrinSair.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
-        jMenuBar1.add(windowPrinSair);
+        Sair.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imgs/imgSair.png"))); // NOI18N
+        Sair.setText("Sair");
+        Sair.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        Sair.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        Menu.add(Sair);
 
-        setJMenuBar(jMenuBar1);
+        setJMenuBar(Menu);
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -563,105 +563,105 @@ public class PrincipalWindow extends javax.swing.JFrame {
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
-    private void menuCadHospedeActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_menuCadHospedeActionPerformed
+    private void CadHospCadActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_CadHospCadActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_menuCadHospedeActionPerformed
+    }//GEN-LAST:event_CadHospCadActionPerformed
 
-    private void menuCadQuartosActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_menuCadQuartosActionPerformed
+    private void CadQuarCadActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_CadQuarCadActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_menuCadQuartosActionPerformed
+    }//GEN-LAST:event_CadQuarCadActionPerformed
 
-    private void menuCadFuncionarioActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_menuCadFuncionarioActionPerformed
+    private void CadFuncCadActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_CadFuncCadActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_menuCadFuncionarioActionPerformed
+    }//GEN-LAST:event_CadFuncCadActionPerformed
 
-    private void menuCadFornecedoresActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_menuCadFornecedoresActionPerformed
+    private void CadFornCadActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_CadFornCadActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_menuCadFornecedoresActionPerformed
+    }//GEN-LAST:event_CadFornCadActionPerformed
 
-    private void menuCadProdutoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_menuCadProdutoActionPerformed
+    private void CadProdCadActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_CadProdCadActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_menuCadProdutoActionPerformed
+    }//GEN-LAST:event_CadProdCadActionPerformed
 
-    private void menuCadServicoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_menuCadServicoActionPerformed
+    private void CadServCadActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_CadServCadActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_menuCadServicoActionPerformed
+    }//GEN-LAST:event_CadServCadActionPerformed
 
-    private void menuCadHospede1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_menuCadHospede1ActionPerformed
+    private void ReservaCadActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ReservaCadActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_menuCadHospede1ActionPerformed
+    }//GEN-LAST:event_ReservaCadActionPerformed
 
-    private void menuCadHospede2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_menuCadHospede2ActionPerformed
+    private void ReservaConActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ReservaConActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_menuCadHospede2ActionPerformed
+    }//GEN-LAST:event_ReservaConActionPerformed
 
-    private void menuCadHospede3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_menuCadHospede3ActionPerformed
+    private void ReservaFinActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ReservaFinActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_menuCadHospede3ActionPerformed
+    }//GEN-LAST:event_ReservaFinActionPerformed
 
-    private void menuCadHospede4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_menuCadHospede4ActionPerformed
+    private void VenProdActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_VenProdActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_menuCadHospede4ActionPerformed
+    }//GEN-LAST:event_VenProdActionPerformed
 
-    private void menuCadHospede5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_menuCadHospede5ActionPerformed
+    private void VenServActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_VenServActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_menuCadHospede5ActionPerformed
+    }//GEN-LAST:event_VenServActionPerformed
 
-    private void menuCadHospede8ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_menuCadHospede8ActionPerformed
+    private void FinContBalActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_FinContBalActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_menuCadHospede8ActionPerformed
+    }//GEN-LAST:event_FinContBalActionPerformed
 
-    private void menuCadHospede7ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_menuCadHospede7ActionPerformed
+    private void FinContRecCadActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_FinContRecCadActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_menuCadHospede7ActionPerformed
+    }//GEN-LAST:event_FinContRecCadActionPerformed
 
-    private void menuCadHospede6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_menuCadHospede6ActionPerformed
+    private void FinContCadActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_FinContCadActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_menuCadHospede6ActionPerformed
+    }//GEN-LAST:event_FinContCadActionPerformed
 
-    private void menuCadHospede9ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_menuCadHospede9ActionPerformed
+    private void RelatFinanContActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_RelatFinanContActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_menuCadHospede9ActionPerformed
+    }//GEN-LAST:event_RelatFinanContActionPerformed
 
-    private void menuCadHospede10ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_menuCadHospede10ActionPerformed
+    private void RelatReserQuarDispActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_RelatReserQuarDispActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_menuCadHospede10ActionPerformed
+    }//GEN-LAST:event_RelatReserQuarDispActionPerformed
 
-    private void menuCadHospede11ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_menuCadHospede11ActionPerformed
+    private void RelatVendProdActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_RelatVendProdActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_menuCadHospede11ActionPerformed
+    }//GEN-LAST:event_RelatVendProdActionPerformed
 
-    private void menuCadHospede12ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_menuCadHospede12ActionPerformed
+    private void RelatHospActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_RelatHospActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_menuCadHospede12ActionPerformed
+    }//GEN-LAST:event_RelatHospActionPerformed
 
-    private void menuCadHospede13ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_menuCadHospede13ActionPerformed
+    private void RelatFuncActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_RelatFuncActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_menuCadHospede13ActionPerformed
+    }//GEN-LAST:event_RelatFuncActionPerformed
 
-    private void menuCadHospede14ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_menuCadHospede14ActionPerformed
+    private void RelatFornActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_RelatFornActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_menuCadHospede14ActionPerformed
+    }//GEN-LAST:event_RelatFornActionPerformed
 
-    private void menuCadHospede15ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_menuCadHospede15ActionPerformed
+    private void RelatReserFutActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_RelatReserFutActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_menuCadHospede15ActionPerformed
+    }//GEN-LAST:event_RelatReserFutActionPerformed
 
-    private void menuCadHospede16ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_menuCadHospede16ActionPerformed
+    private void SegBackupActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_SegBackupActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_menuCadHospede16ActionPerformed
+    }//GEN-LAST:event_SegBackupActionPerformed
 
-    private void menuCadHospede17ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_menuCadHospede17ActionPerformed
+    private void SegRestActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_SegRestActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_menuCadHospede17ActionPerformed
+    }//GEN-LAST:event_SegRestActionPerformed
 
-    private void menuCadHospede18ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_menuCadHospede18ActionPerformed
+    private void FerramentasTelaFundoAddImgActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_FerramentasTelaFundoAddImgActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_menuCadHospede18ActionPerformed
+    }//GEN-LAST:event_FerramentasTelaFundoAddImgActionPerformed
 
-    private void menuCadHospede19ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_menuCadHospede19ActionPerformed
+    private void FerramentasSobreSistemaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_FerramentasSobreSistemaActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_menuCadHospede19ActionPerformed
+    }//GEN-LAST:event_FerramentasSobreSistemaActionPerformed
 
     /**
      * @param args the command line arguments
@@ -689,72 +689,72 @@ public class PrincipalWindow extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JMenu Cad;
+    private javax.swing.JMenu CadForn;
+    private javax.swing.JMenuItem CadFornCad;
+    private javax.swing.JMenuItem CadFornCon;
+    private javax.swing.JMenu CadFunc;
+    private javax.swing.JMenuItem CadFuncCad;
+    private javax.swing.JMenuItem CadFuncCon;
+    private javax.swing.JMenu CadHosp;
+    private javax.swing.JMenuItem CadHospCad;
+    private javax.swing.JMenuItem CadHospCon;
+    private javax.swing.JMenu CadProd;
+    private javax.swing.JMenuItem CadProdCad;
+    private javax.swing.JMenuItem CadProdCon;
+    private javax.swing.JMenu CadQuar;
+    private javax.swing.JMenuItem CadQuarCad;
+    private javax.swing.JMenuItem CadQuarCon;
+    private javax.swing.JMenu CadServ;
+    private javax.swing.JMenuItem CadServCad;
+    private javax.swing.JMenuItem CadServCon;
+    private javax.swing.JMenu Ferramentas;
+    private javax.swing.JMenuItem FerramentasSobreSistema;
+    private javax.swing.JMenu FerramentasTelaFundo;
+    private javax.swing.JMenuItem FerramentasTelaFundoAddImg;
+    private javax.swing.JMenuItem FerramentasTelaFundoRemImg;
+    private javax.swing.JMenuItem FerramentasTelaFundoRestPad;
+    private javax.swing.JMenu FinCont;
+    private javax.swing.JMenuItem FinContBal;
+    private javax.swing.JMenuItem FinContCad;
+    private javax.swing.JMenuItem FinContCon;
+    private javax.swing.JMenu FinContRec;
+    private javax.swing.JMenuItem FinContRecCad;
+    private javax.swing.JMenuItem FinContRecCon;
+    private javax.swing.JMenu Financeiro;
+    private javax.swing.JMenuBar Menu;
+    private javax.swing.JMenu Relat;
+    private javax.swing.JMenu RelatFinan;
+    private javax.swing.JMenuItem RelatFinanBal;
+    private javax.swing.JMenuItem RelatFinanCont;
+    private javax.swing.JMenuItem RelatFinanRece;
+    private javax.swing.JMenuItem RelatForn;
+    private javax.swing.JMenuItem RelatFunc;
+    private javax.swing.JMenuItem RelatHosp;
+    private javax.swing.JMenu RelatReser;
+    private javax.swing.JMenuItem RelatReserFut;
+    private javax.swing.JMenuItem RelatReserQuarDisp;
+    private javax.swing.JMenuItem RelatReserQuarOcup;
+    private javax.swing.JMenu RelatVend;
+    private javax.swing.JMenuItem RelatVendProd;
+    private javax.swing.JMenuItem RelatVendServ;
+    private javax.swing.JMenuItem RelatVendTot;
+    private javax.swing.JMenu Reserva;
+    private javax.swing.JMenuItem ReservaCad;
+    private javax.swing.JMenuItem ReservaCon;
+    private javax.swing.JMenuItem ReservaFin;
+    private javax.swing.JMenu Sair;
+    private javax.swing.JMenu Seg;
+    private javax.swing.JMenuItem SegBackup;
+    private javax.swing.JMenuItem SegRest;
+    private javax.swing.JMenuItem VenProd;
+    private javax.swing.JMenuItem VenServ;
+    private javax.swing.JMenu Vendas;
     private javax.swing.JLabel jLabel1;
-    private javax.swing.JMenu jMenu1;
-    private javax.swing.JMenu jMenu10;
-    private javax.swing.JMenu jMenu11;
-    private javax.swing.JMenu jMenu12;
-    private javax.swing.JMenu jMenu13;
-    private javax.swing.JMenu jMenu14;
-    private javax.swing.JMenu jMenu15;
-    private javax.swing.JMenu jMenu16;
-    private javax.swing.JMenu jMenu17;
-    private javax.swing.JMenu jMenu18;
-    private javax.swing.JMenu jMenu19;
-    private javax.swing.JMenu jMenu2;
     private javax.swing.JMenu jMenu20;
     private javax.swing.JMenu jMenu21;
-    private javax.swing.JMenu jMenu3;
-    private javax.swing.JMenu jMenu4;
-    private javax.swing.JMenu jMenu5;
-    private javax.swing.JMenu jMenu6;
-    private javax.swing.JMenu jMenu7;
-    private javax.swing.JMenu jMenu8;
-    private javax.swing.JMenu jMenu9;
-    private javax.swing.JMenuBar jMenuBar1;
     private javax.swing.JMenuBar jMenuBar2;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JSeparator jSeparator1;
-    private javax.swing.JMenuItem menuCadFornecedores;
-    private javax.swing.JMenuItem menuCadFuncionario;
-    private javax.swing.JMenuItem menuCadHospede;
-    private javax.swing.JMenuItem menuCadHospede1;
-    private javax.swing.JMenuItem menuCadHospede10;
-    private javax.swing.JMenuItem menuCadHospede11;
-    private javax.swing.JMenuItem menuCadHospede12;
-    private javax.swing.JMenuItem menuCadHospede13;
-    private javax.swing.JMenuItem menuCadHospede14;
-    private javax.swing.JMenuItem menuCadHospede15;
-    private javax.swing.JMenuItem menuCadHospede16;
-    private javax.swing.JMenuItem menuCadHospede17;
-    private javax.swing.JMenuItem menuCadHospede18;
-    private javax.swing.JMenuItem menuCadHospede19;
-    private javax.swing.JMenuItem menuCadHospede2;
-    private javax.swing.JMenuItem menuCadHospede3;
-    private javax.swing.JMenuItem menuCadHospede4;
-    private javax.swing.JMenuItem menuCadHospede5;
-    private javax.swing.JMenuItem menuCadHospede6;
-    private javax.swing.JMenuItem menuCadHospede7;
-    private javax.swing.JMenuItem menuCadHospede8;
-    private javax.swing.JMenuItem menuCadHospede9;
-    private javax.swing.JMenuItem menuCadProduto;
-    private javax.swing.JMenuItem menuCadQuartos;
-    private javax.swing.JMenuItem menuCadServico;
-    private javax.swing.JMenuItem menuConFornecedores;
-    private javax.swing.JMenuItem menuConFuncionario;
-    private javax.swing.JMenuItem menuConHospede;
-    private javax.swing.JMenuItem menuConHospede1;
-    private javax.swing.JMenuItem menuConHospede2;
-    private javax.swing.JMenuItem menuConHospede3;
-    private javax.swing.JMenuItem menuConHospede4;
-    private javax.swing.JMenuItem menuConHospede5;
-    private javax.swing.JMenuItem menuConHospede6;
-    private javax.swing.JMenuItem menuConHospede7;
-    private javax.swing.JMenuItem menuConHospede8;
-    private javax.swing.JMenuItem menuConHospede9;
-    private javax.swing.JMenuItem menuConProduto;
-    private javax.swing.JMenuItem menuConQuartos;
-    private javax.swing.JMenuItem menuConServico;
-    private javax.swing.JMenu windowPrinSair;
     // End of variables declaration//GEN-END:variables
 }
